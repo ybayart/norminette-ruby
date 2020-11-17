@@ -6,3 +6,5 @@ RUN git clone https://git.hexanyn.fr/norminette/ruby.git /norminette
 
 RUN cd /norminette &&\
 	bundle
+
+WORKDIR /data
